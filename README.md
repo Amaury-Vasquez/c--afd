@@ -9,7 +9,6 @@ un autómata que reciba una entrada y evalue si la cadena es aceptada por el mis
 Se espera que el programa reciba en los argumentos el nombre del archivo de donde se va a leer la tabla
 
 ```
-<!-- python3 main.py <nombrearchivo.txt> -->
 ///
 ```
 
