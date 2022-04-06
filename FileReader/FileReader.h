@@ -1,15 +1,15 @@
 #include <vector>
 #include <string>
 
-using namespace std;
-
 class FileReader {
   public:
-    FileReader(string);
-    static vector<string> split_string(string);
+    FileReader(std::string);
+    static int **create_transition_table(std::vector <string>);
+    static std::vector<std::string> split_string(std::string);
+    static std::vector<int> vector_string_to_int(std::vector <std::string>);
 
   private:
-    vector<char> alphabet;
-    vector<int> accept_states;
+    std::vector<std::string> alphabet;
+    std::vector<int> accept_states;
     int **transition_table;
 };
